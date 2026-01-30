@@ -1,0 +1,67 @@
+{
+  "menu": {
+    "intro": "Bemutatkozás",
+    "shows": "Műsorok",
+    "gallery": "Galéria",
+    "contact": "Kapcsolat"
+  },
+  "intro": {
+    "paragraphs": [
+      {
+        "subtitle": "BEMUTATKOZÁS",
+        "text": "Üdvözlünk kedves látogató a Norde Gard, az Északi Gárda hagyományőrző csapat weboldalán! 2006. óta foglalkozunk az X-XI. századi óészaki és a VI-VII. századi Kárpát-medencei germán törzsek életmódjának és harcászatának bemutatásával."
+      },
+      {
+        "subtitle": "",
+        "text": "A X-XI. századi óészaki népek megismertetésénél a mai köznyelvben tévesen vikingként elterjedt emberek életét, valamint magyar vonatkozásban I. (Szent) István király rusz testőrségét mutatjuk be. A népvándorlás kor felelevenítésénél pedig a Kárpát-medencei germán népek, különösen a gepidák és a langobardok kultúráját, és hadászatát szeretnénk megismertetni a közönséggel. Szeretnénk, ha az érdeklődők testközelből szemlélhetnék meg ezen népek mindennapi életét, szokásait, küzdelmeit, hogy egy hitelesebb kép alakuljon ki bennük az említett korszakokról. Csapatunk továbbá folyamatosan nyomon követni ezen korszakok kutatását és a legújabb ásatások eredményeit. Tagjaink között többen a régészeti, történelmi és más kapcsolódó tudományág, mesterség avatott ismerői, sokunk szakmáját, mindennapjait köti valamilyen szál az általunk megjelenített időszakokhoz. Mindezen tudásanyag felhasználásával igyekszünk kialakítani felszereléseinket és műsorainkat, törekedve arra, hogy a legautentikusabb képet alakítsuk ki. Csapatunk a hagyományőrzésmellett, szerepelt már többek között amerikai, osztrák, kanadai és angol ismeretterjesztő és szórakoztató filmes produkciókban. Munkánkban nagy segítséget jelent a múzeumok támogatása, így eredeti forrásokból, értékes tudományos anyagokat tekinthetünk meg. Köszönet illeti tehát az Aquincumi Múzeumot, a Hadtörténeti Intézet és Múzeumot, a „Matrica” Múzeum és Régészeti Parkot, valamint az Eötvös Loránd Tudomány Egyetem és a Pázmány Péter Katolikus Egyetem több tanszékének hallgatóit, tanárait."
+      }
+    ]
+  },
+  "shows": {
+    "title_early": "KORA KÖZÉPKORI X-XI. SZÁZADI BEMUTATÓK",
+    "paragraphs_early": [
+      {
+        "subtitle": "HARCI BEMUTATÓ",
+        "text": "Bemutatónk során a látogatóknak egy korabeli csatajelenetet elevenítünk fel, ahol a gyakorlatban is megtekinthetik a korszak fegyvereinek és páncélzatának használatát, valamint a korabeli harci technikákat. Ez a bemutató kiegészülhet továbbá párbajokkal, a katonák kiképzésének bemutatásával, valamint valódi éles fegyverek használatának ismertetésével, vágásbemutatóval."
+      },
+      {
+        "subtitle": "ÉLETMÓD BEMUTATÓ",
+        "text": "Bemutatónk során megismerhetik a X-XI. századi, Kárpát-medencében élt északi népelemek mindennapjait, akiket Szent István rusz testőrségeként is említenek a történetírásban. Megtekinthetik sátraikat, korhű bútoraikat, fegyvereiket, páncélzatukat, ruházatukat és a mindennapi életben használt eszközeiket. Igény szerint tábori idegenvezetést keretében bemutatjuk a táborban végzett tevékenységeket és a hagyományőrzők által megformált karaktereket. A műsor kiegészítése lehet egy korabeli főzőbemutató, korhű gyermekjátékok bemutatása, valamint kipróbálási lehetőség a gyerekek számára."
+      }
+    ],
+    "title_migration": "NÉPVÁNDORLÁS KORI BEMUTATÓ",
+    "paragraphs_migration": [
+      {
+        "subtitle": "HARCI BEMUTATÓ",
+        "text": "Bemutatónk során a látogatóknak egy korabeli csatajelenetet elevenítünk fel, ahol a gyakorlatban is megtekinthetik a korszak fegyvereinek és páncélzatának használatát, valamint a korabeli harci technikákat. Ez a bemutató kiegészülhet továbbá párbajokkal, a katonák kiképzésének bemutatásával, valamint valódi éles fegyverek használatának ismertetésével, vágásbemutatóval."
+      },
+      {
+        "subtitle": "ÉLETMÓD BEMUTATÓ",
+        "text": "Bemutatónk során megismerhetik a VI-VII. századi Kárpát-medencében élt keleti germán népek a Gepidák és a Langobárdok életét. Megtekinthetik sátraikat, korhű bútoraikat, fegyvereiket, páncélzatukat, ruházatukat és a mindennapi életben használt eszközeiket. Igény szerint tábori idegenvezetést keretében bemutatjuk a táborban végzett tevékenységeket és a hagyományőrzők által megformált karaktereket. A műsor kiegészítése lehet egy korabeli főzőbemutató, korhű gyermekjátékok bemutatása, valamint kipróbálási lehetőség a gyerekek számára."
+      }
+    ],
+    "paragraphs_children": [
+      {
+        "subtitle": "GYERMEKPROGRAMOK",
+        "text": "Csapatunk különféle gyerekprogramok megszervezését is vállalja történelmi bemutatónk keretében. Megismertetjük a gyerekekkel a korabeli játékokat és kézműves mesterségeket. A játékok során a résztvevő próbára tehetik magukat olyan ügyességi játékokban, mint az óészaki eredetű kub, a rönkhajítás, vagy a négyes kötélhúzás, illetve kipróbálhatják a középkori vívást párnázott fegyverekkel, valamint a korhű táblajátékokat. A kézműves foglalkozásokon megismerhetik az agyagozás, nemezelés, illetve a fonás mesterségét."
+      }
+    ],
+    "paragraphs_history_class": [
+      {
+        "subtitle": "ISKOLAI RENDHAGYÓ TÖRTÉNELEMÓRA",
+        "text": "Bemutatónk során megismerhetik a X-XI. századi, Kárpát-medencében élt északi népelemek mindennapjait, akiket Szent István rusz testőrségeként is említenek a történetírásban. Megtekinthetik sátraikat, korhű bútoraikat, fegyvereiket, páncélzatukat, ruházatukat és a mindennapi életben használt eszközeiket. Igény szerint tábori idegenvezetést keretében bemutatjuk a táborban végzett tevékenységeket és a hagyományőrzők által megformált karaktereket. A műsor kiegészítése lehet egy korabeli főzőbemutató, korhű gyermekjátékok bemutatása, valamint kipróbálási lehetőség a gyerekek számára."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "",
+    "description": ""
+  },
+  "contact": {
+    "title": "KAPCSOLAT",
+    "content": "Amennyiben szeretné felvenni velünk a kapcsolatot az alábbi elérhetőségek bármelyikén megteheti."
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva © Norde Gard 2026"
+  }
+}
