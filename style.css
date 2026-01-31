@@ -255,7 +255,16 @@ section .paragraph-container img {
         height: auto;
         border: 2px solid #988372;
     }
-}
+
+    section#home {
+        height: 600px;
+        max-width: calc(100% + 40px);
+        margin: 0 -20px;
+        background-image: url("assets/images/header_v01.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
 section#contact ul {
     margin-top: 20px;
@@ -276,4 +285,13 @@ section#contact ul li img {
     height: 20px;
     vertical-align: middle;
     margin-right: 8px;
+}
+
+#NG-logo {
+    display: flex;
+    margin: 0 auto 20px auto;
+    max-width: 1920px;
+    overflow: hidden;
+    align-self: center;
+    height: 800px;
 }
