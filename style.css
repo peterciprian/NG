@@ -182,25 +182,63 @@ hr {
 
 /* Navigation Menu Styles */
 nav {
-    font-family: "Battambang", sans-serif;
+    position: sticky;
+    top: 0;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    overflow: hidden;
+    background-color: #0a0a0a;
+    box-shadow: 0 0 10px rgba(152, 131, 114, 0.5);
+}
+.nav-container {
+    width: 100%;
+}
+#menu-button {
+    all: unset;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    margin-left: auto;
+    right: 0;
+}
+#menu-button svg {
+    color: #7f7f7f;
+}
+
+@media (min-width: 600px) {
+    #menu-button {
+        display: none;
+    }
 }
 
 nav ul#menu {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
     font-weight: 600;
     font-size: 18px;
     text-transform: uppercase;
+    margin: auto;
+}
+
+nav ul#menu li {
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    nav ul#menu {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-around;
+    }
 }
 
 /* End of Navigation Menu Styles */
 
 
-header,
-main,
 footer {
     width: 100%;
     margin: 0 auto;
@@ -266,32 +304,33 @@ section .paragraph-container img {
         background-position: center;
     }
 
-section#contact ul {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+    section#contact ul {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-section#contact ul li {
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+    section#contact ul li {
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-section#contact ul li img {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 8px;
-}
+    section#contact ul li img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
 
-#NG-logo {
-    display: flex;
-    margin: 0 auto 20px auto;
-    max-width: 1920px;
-    overflow: hidden;
-    align-self: center;
-    height: 800px;
+    #NG-logo {
+        display: flex;
+        margin: 0 auto 20px auto;
+        max-width: 1920px;
+        overflow: hidden;
+        align-self: center;
+        height: 800px;
+    }
 }
