@@ -178,6 +178,9 @@ hr {
     margin: 20px auto;
 }
 
+section:not(#home) {
+    padding: 0 10%;
+}
 /* End of Default Styles */
 
 /* Navigation Menu Styles */
@@ -296,8 +299,8 @@ section .paragraph-container img {
 
     section#home {
         height: 600px;
-        max-width: calc(100% + 40px);
-        margin: 0 -20px;
+        /* max-width: calc(100% + 40px);
+        margin: 0 -20px; */
         background-image: url("assets/images/header_v01.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -333,4 +336,11 @@ section .paragraph-container img {
         align-self: center;
         height: 800px;
     }
+}
+
+#eapps-instagram-feed-1 {
+    z-index: -1;
+}
+#eapps-instagram-feed-1>a[style] {
+    display: none!important;
 }
