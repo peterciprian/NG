@@ -48,18 +48,21 @@
                 <li><a href="#shows" id="menu.shows">Műsorok</a></li>
                 <li><a href="#gallery" id="menu.gallery">Galéria</a></li>
                 <li><a href="#contact" id="menu.contact">Kapcsolat</a></li>
+                <li>
+                    <button onclick="toggleLanguage()"> <img id="flag" src="assets/images/hu-4x3.svg" alt="Hun" /></button>
+                </li>
             </ul>
         </div>
     </nav>
     <main>
         <section id="home"></section>
         <section id="intro">
-            <div id="intro.paragraphs[0]">
-                <div class="paragraph-container">
+            <div id="intro.paragraphs.0">
+                <div class="intro.paragraphs.0.paragraph-container">
                     <img src="assets/images/01.png" alt="Norde Gard Introduction Image" />
                     <div class="paragraph-box">
-                        <h2 id="intro[0].subtitle">BEMUTATKOZÁS</h2>
-                        <p id="intro[0].text">
+                        <h2 id="intro.paragraphs.0.subtitle">BEMUTATKOZÁS</h2>
+                        <p id="intro.paragraphs.0.text">
                             Üdvözlünk kedves látogató a Norde Gard, az Északi Gárda
                             hagyományőrző csapat weboldalán! 2006. óta foglalkozunk az X-XI.
                             századi óészaki és a VI-VII. századi Kárpát-medencei germán
@@ -68,10 +71,10 @@
                     </div>
                 </div>
             </div>
-            <div id="intro.paragraphs[1]">
-                <h2 id="intro[1].subtitle"></h2>
+            <div id="intro.paragraphs.1">
+                <h2 id="intro.paragraphs.1.subtitle"></h2>
                 <div class="paragraph-container">
-                    <p id="intro[1].text">
+                    <p id="intro.paragraphs.1.text">
                         A X-XI. századi óészaki népek megismertetésénél a mai köznyelvben
                         tévesen vikingként elterjedt emberek életét, valamint magyar
                         vonatkozásban I. (Szent) István király rusz testőrségét mutatjuk
@@ -107,8 +110,8 @@
                 <div class="paragraph-container">
                     <img src="assets/images/Untitled.png" alt="Norde Gard Early Medieval Show Image" />
                     <div class="paragraph-box">
-                        <h2 id="shows.paragraphs_early[0].subtitle">HARCI BEMUTATÓ</h2>
-                        <p id="shows.paragraphs_early[0].text">
+                        <h2 id="shows.paragraphs_early.0.subtitle">HARCI BEMUTATÓ</h2>
+                        <p id="shows.paragraphs_early.0.text">
                             Bemutatónk során a látogatóknak egy korabeli csatajelenetet
                             elevenítünk fel, ahol a gyakorlatban is megtekinthetik a korszak
                             fegyvereinek és páncélzatának használatát, valamint a korabeli
@@ -121,8 +124,8 @@
                 </div>
                 <div class="paragraph-container">
                     <div class="paragraph-box">
-                        <h2 id="shows.paragraphs_early[1].subtitle">ÉLETMÓD BEMUTATÓ</h2>
-                        <p id="shows.paragraphs_early[1].text">
+                        <h2 id="shows.paragraphs_early.1.subtitle">ÉLETMÓD BEMUTATÓ</h2>
+                        <p id="shows.paragraphs_early.1.text">
                             Bemutatónk során megismerhetik a X-XI. századi,
                             Kárpát-medencében élt északi népelemek mindennapjait, akiket
                             Szent István rusz testőrségeként is említenek a történetírásban.
@@ -145,10 +148,10 @@
                 <div class="paragraph-container">
                     <img src="assets/images/07.png" alt="Norde Gard Early Medieval Show Image" />
                     <div class="paragraph-box">
-                        <h2 id="shows.paragraphs_migration[0].subtitle">
+                        <h2 id="shows.paragraphs_migration.0.subtitle">
                             HARCI BEMUTATÓ
                         </h2>
-                        <p id="shows.paragraphs_migration[0].text">
+                        <p id="shows.paragraphs_migration.0.text">
                             Bemutatónk során a látogatóknak egy korabeli csatajelenetet
                             elevenítünk fel, ahol a gyakorlatban is megtekinthetik a korszak
                             fegyvereinek és páncélzatának használatát, valamint a korabeli
@@ -161,10 +164,10 @@
                 </div>
                 <div class="paragraph-container">
                     <div class="paragraph-box">
-                        <h2 id="shows.paragraphs_migration[1].subtitle">
+                        <h2 id="shows.paragraphs_migration.1.subtitle">
                             ÉLETMÓD BEMUTATÓ
                         </h2>
-                        <p id="shows.paragraphs_migration[1].text">
+                        <p id="shows.paragraphs_migration.1.text">
                             Bemutatónk során megismerhetik a VI-VII. századi
                             Kárpát-medencében élt keleti germán népek a Gepidák és a
                             Langobárdok életét. Megtekinthetik sátraikat, korhű bútoraikat,
@@ -185,10 +188,10 @@
                 <div class="paragraph-container">
                     <img src="assets/images/3.png" alt="Norde Gard Kids Program Image" />
                     <div class="paragraph-box">
-                        <h2 id="shows.paragraphs_children[0].subtitle">
+                        <h2 id="shows.paragraphs_children.0.subtitle">
                             GYERMEKPROGRAMOK
                         </h2>
-                        <p id="shows.paragraphs_children[0].text">
+                        <p id="shows.paragraphs_children.0.text">
                             Csapatunk különféle gyerekprogramok megszervezését is vállalja
                             történelmi bemutatónk keretében. Megismertetjük a gyerekekkel a
                             korabeli játékokat és kézműves mesterségeket. A játékok során a
@@ -205,10 +208,10 @@
             <div id="history_class">
                 <div class="paragraph-container">
                     <div class="paragraph-box">
-                        <h2 id="shows.paragraphs_history_class[0].subtitle">
+                        <h2 id="shows.paragraphs_history_class.0.subtitle">
                             ISKOLAI RENDHAGYÓ TÖRTÉNELEMÓRA
                         </h2>
-                        <p id="shows.paragraphs_history_class[0].text">
+                        <p id="shows.paragraphs_history_class.0.text">
                             Bemutatónk során megismerhetik a X-XI. századi,
                             Kárpát-medencében élt északi népelemek mindennapjait, akiket
                             Szent István rusz testőrségeként is említenek a történetírásban.
@@ -229,7 +232,7 @@
         <hr />
         <section id="gallery">
             <iframe src="https://www.Instagram.com/teamnordegard/embed" width="100%" height="700" frameborder="0"
-                scrolling="auto" allowtransparency="true" style="border: none; overflow: scroll;">
+                scrolling="auto" allowtransparency="true" style="border: none; overflow: scroll">
             </iframe>
         </section>
         <hr />
@@ -254,7 +257,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Norde Gard. All rights reserved.</p>
+        <p id="footer.rights">Minden jog fenntartva © Norde Gard 2026</p>
     </footer>
     <script src="script.js"></script>
 </body>
